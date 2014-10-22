@@ -1,0 +1,12 @@
+.git/*
+Config/email.php
+Config/database.php
+app/tmp/*
+
+.idea/*
+
+
+mail/Config/email.php
+mail/tmp/*
+
+Plugin/*
