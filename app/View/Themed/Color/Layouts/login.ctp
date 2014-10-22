@@ -38,18 +38,18 @@
                 <span class="logo"></span> SMS
                 <small>School Management System</small>
             </div>
-<!--            <div class="icon">-->
-<!--                <i class="fa fa-sign-in"></i>-->
-<!--            </div>-->
+            <div class="icon">
+                <i class="fa fa-sign-in"></i>
+            </div>
         </div>
         <!-- end brand -->
         <div class="login-content">
-            <form action="http://seantheme.com/color-admin-v1.3/index.html" method="POST" class="margin-bottom-0">
+            <?php echo $this->Form->create('User', array('action' => 'login'), array('class' => 'margin-bottom-0')); ?>
                 <div class="form-group m-b-20">
-                    <input type="text" class="form-control input-lg" placeholder="Email Address" />
+                    <?php echo $this->Form->input('username', array('class' => array('form-control', 'input-lg')));?>
                 </div>
                 <div class="form-group m-b-20">
-                    <input type="text" class="form-control input-lg" placeholder="Password" />
+                    <?php echo $this->Form->input('password', array('class' => array('form-control', 'input-lg')));?>
                 </div>
                 <div class="checkbox m-b-20">
                     <label>
@@ -59,6 +59,7 @@
                 <div class="login-buttons">
                     <button type="submit" class="btn btn-success btn-block btn-lg">Sign me in</button>
                 </div>
+            <?php echo $this->Form->end(); ?>
                 <div class="m-t-20">
                     Not a member yet? Click <a href="#">here</a> to register.
                 </div>

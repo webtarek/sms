@@ -14,20 +14,10 @@
 
     <!-- ================== BEGIN BASE CSS STYLE ================== -->
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
-    <link href="assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css" rel="stylesheet" />
-    <link href="assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="assets/plugins/font-awesome-4.2.0/css/font-awesome.min.css" rel="stylesheet" />
-    <link href="assets/css/animate.min.css" rel="stylesheet" />
-    <link href="assets/css/style.min.css" rel="stylesheet" />
-    <link href="assets/css/style-responsive.min.css" rel="stylesheet" />
-    <link href="assets/css/theme/default.css" rel="stylesheet" id="theme" />
+    <?php echo $this->Html->css(array('jquery-ui.min', 'bootstrap.min', 'font-awesome.min', 'animate.min', 'style.min', 'style-responsive.min', 'default', 'jquery-jvectormap-1.2.2', 'bootstrap_calendar', 'jquery.gritter', 'morris'));?>
     <!-- ================== END BASE CSS STYLE ================== -->
 
     <!-- ================== BEGIN PAGE LEVEL CSS STYLE ================== -->
-    <link href="assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css" rel="stylesheet" />
-    <link href="assets/plugins/bootstrap-calendar/css/bootstrap_calendar.css" rel="stylesheet" />
-    <link href="assets/plugins/gritter/css/jquery.gritter.css" rel="stylesheet" />
-    <link href="assets/plugins/morris/morris.css" rel="stylesheet" />
     <!-- ================== END PAGE LEVEL CSS STYLE ================== -->
 </head>
 <body>
@@ -724,27 +714,18 @@
 <!-- end page container -->
 
 <!-- ================== BEGIN BASE JS ================== -->
-<script src="assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js"></script>
-<script src="assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js"></script>
-<script src="assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js"></script>
+<?php echo $this->Html->script(array('jquery-1.8.2.min', 'jquery-ui.min', 'bootstrap.min', 'jquery.slimscroll.min', 'jquery.cookie', 'login-v2.demo.min', 'apps.min', 'raphael.min', 'morris', 'jquery-jvectormap-1.2.2.min', 'jquery-jvectormap-world-merc-en', 'bootstrap_calendar.min', 'jquery.gritter', 'dashboard-v2.min', 'apps.min'));?>
+
+
+
 <!--[if lt IE 9]>
 <script src="assets/crossbrowserjs/html5shiv.js"></script>
 <script src="assets/crossbrowserjs/respond.min.js"></script>
 <script src="assets/crossbrowserjs/excanvas.min.js"></script>
 <![endif]-->
-<script src="assets/plugins/slimscroll/jquery.slimscroll.min.js"></script>
-<script src="assets/plugins/jquery-cookie/jquery.cookie.js"></script>
 <!-- ================== END BASE JS ================== -->
 
 <!-- ================== BEGIN PAGE LEVEL JS ================== -->
-<script src="assets/plugins/morris/raphael.min.js"></script>
-<script src="assets/plugins/morris/morris.js"></script>
-<script src="assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js"></script>
-<script src="assets/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js"></script>
-<script src="assets/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js"></script>
-<script src="assets/plugins/gritter/js/jquery.gritter.js"></script>
-<script src="assets/js/dashboard-v2.min.js"></script>
-<script src="assets/js/apps.min.js"></script>
 <!-- ================== END PAGE LEVEL JS ================== -->
 <script>
     $(document).ready(function() {
