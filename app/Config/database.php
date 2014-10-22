@@ -69,7 +69,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'ltqpsmr7',
+		'password' => 'pass4tar3k',
 		'database' => 'school',
 		'prefix' => '',
 		//'encoding' => 'utf8',

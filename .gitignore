@@ -1,6 +1,6 @@
 .git/*
 Config/email.php
-Config/database.php
+app/Config/database.php
 app/tmp/*
 
 .idea/*
