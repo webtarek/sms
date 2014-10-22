@@ -28,3 +28,1831 @@ Stack Trace:
 #3 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest))
 #4 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-10-22 17:42:59 Error: [MissingViewException] View file "/var/www/html/sms/app/View/Users/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/sms/app/View/Users/index.ctp',
+)
+Request URL: /sms/users
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /var/www/html/sms/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-10-22 18:01:37 Error: [MissingLayoutException] Layout file "/var/www/html/sms/app/View/Themed/Color/Layouts/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/html/sms/app/View/Themed/Color/Layouts/login.ctp',
+)
+Request URL: /sms/users/login
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/View/View.php(510): View->_getLayoutFileName('login')
+#1 /var/www/html/sms/lib/Cake/View/View.php(479): View->renderLayout('', 'login')
+#2 /var/www/html/sms/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#3 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#4 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/font-awesome-4.2.0/css/font-awesome.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/style.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/style-responsive.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/theme/default.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/slimscroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:29 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/js/apps.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/font-awesome-4.2.0/css/font-awesome.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/style.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/theme/default.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/style-responsive.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:33 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/js/apps.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:34 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:02:34 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/slimscroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:18:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/l
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:26 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:26 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.woff?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:26 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:18:26 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.ttf?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/l
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:32 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:18:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:32 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.woff?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:18:32 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.ttf?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/l
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:51 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:28:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:51 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.woff?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:51 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.ttf?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/l
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:52 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.woff?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:52 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:28:52 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.ttf?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/l
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.woff?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/l
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/l
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:57 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:57 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.woff?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:57 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.ttf?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:28:57 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:33:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/l
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:12 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:33:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/l
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:33:26 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:35:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:27 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:35:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:27 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:31 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:35:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:31 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:32 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.woff?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:35:32 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:35:32 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.ttf?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:42 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:42 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:37:45 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:45 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:37:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:45 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.woff?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:46 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:46 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:37:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:46 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.woff?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:46 Error: [MissingControllerException] Controller class ThemeController could not be found.
+Exception Attributes: array (
+  'class' => 'ThemeController',
+  'plugin' => NULL,
+)
+Request URL: /sms/theme/color/fonts/fontawesome-webfont78ce.ttf?v=4.2.0
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/css/style.min.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/font-awesome-4.2.0/css/font-awesome.min.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/css/style-responsive.min.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/css/theme/default.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/bootstrap-calendar/css/bootstrap_calendar.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/gritter/css/jquery.gritter.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:55 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/morris/morris.css
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/slimscroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/morris/raphael.min.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/morris/morris.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/jquery-jvectormap/jquery-jvectormap-1.2.2.min.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/jquery-jvectormap/jquery-jvectormap-world-merc-en.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/bootstrap-calendar/js/bootstrap_calendar.min.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/plugins/gritter/js/jquery.gritter.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/js/dashboard-v2.min.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/js/apps.min.js
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-12.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-10.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-14.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-8.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:37:56 Error: [MissingControllerException] Controller class Login-bgController could not be found.
+Exception Attributes: array (
+  'class' => 'Login-bgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/login-bg/assets/img/user-9.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:38:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:38:25 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/login-bg/bg-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-22 18:38:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:38:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:38:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:38:25 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-6.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:38:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:38:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-22 18:38:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
