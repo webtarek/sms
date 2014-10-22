@@ -7,7 +7,7 @@
 <!-- Mirrored from seantheme.com/color-admin-v1.3/login_v2.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 22 Oct 2014 10:25:02 GMT -->
 <head>
     <meta charset="utf-8" />
-    <title>Color Admin | Login Page</title>
+    <title>Color Admin | Signup Page</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="description" />
     <meta content="" name="author" />
@@ -24,7 +24,7 @@
 
 <div class="login-cover">
     <div class="login-cover-image">
-        <?php echo $this->Html->image('login-bg/bg-1.jpg');
+        <?php echo $this->Html->image('login-bg/bg-4.jpg');
         ?></div>
     <div class="login-cover-bg"></div>
 </div>
@@ -44,25 +44,24 @@
         </div>
         <!-- end brand -->
         <div class="login-content">
-            <?php echo $this->Form->create('User', array('action' => 'login'), array('class' => 'margin-bottom-0')); ?>
+            <?php echo $this->Form->create('User', array('action' => 'signup'), array('class' => 'margin-bottom-0')); ?>
                 <div class="form-group m-b-20">
                     <?php echo $this->Form->input('username', array('class' => array('form-control', 'input-lg')));?>
                 </div>
                 <div class="form-group m-b-20">
                     <?php echo $this->Form->input('password', array('class' => array('form-control', 'input-lg')));?>
                 </div>
-                <div class="checkbox m-b-20">
-                    <label>
-                        <input type="checkbox" /> Remember Me
-                    </label>
+                <div class="form-group m-b-20">
+                            <select name="data[User][role]" id="" class="form-control selectpicker" data-size="6" data-live-search="true" data-style="btn-info" required="required">
+                                <option value="" selected>Select Role</option>
+                                <option value="admin">Admin</option>
+                                <option value="user">User</option>
+                            </select>
                 </div>
                 <div class="login-buttons">
-                    <button type="submit" class="btn btn-success btn-block btn-lg">Sign me in</button>
+                    <button type="submit" class="btn btn-success btn-block btn-lg">Sign up</button>
                 </div>
             <?php echo $this->Form->end(); ?>
-                <div class="m-t-20">
-                    Not a member yet? Click <?php echo $this->Html->link('here', array('controller' => 'users', 'action' => 'signup')); ?> to register.
-                </div>
             </form>
         </div>
     </div>

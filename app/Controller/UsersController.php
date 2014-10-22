@@ -58,7 +58,7 @@ class UsersController extends AppController {
 
     public function view($id = null)
     {
-        var_dump('welcome! Successful');
+        $this->set('header', 'View');
     }
 
     public function signup()
