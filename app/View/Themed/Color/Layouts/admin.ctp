@@ -7,7 +7,7 @@
 <!-- Mirrored from seantheme.com/color-admin-v1.3/index_v2.html by HTTrack Website Copier/3.x [XR&CO'2013], Wed, 22 Oct 2014 10:14:06 GMT -->
 <head>
     <meta charset="utf-8" />
-    <title>Color Admin | Dashboard v2</title>
+    <title>SMS | Dashboard </title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <meta content="" name="description" />
     <meta content="" name="author" />
