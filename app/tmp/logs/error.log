@@ -8316,3 +8316,1407 @@ Stack Trace:
 #1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
 #2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2014-10-23 12:19:38 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 12:19:38 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 12:19:38 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 12:20:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:20:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:20:14 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:20:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:20:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:20:46 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:20:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:20:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:20:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:21:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:21:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:21:05 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:53:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:53:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:53:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:53:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:53:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:53:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:53:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:53:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 12:53:58 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:03:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:03:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:03:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:25:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:25:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:25:02 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:25:08 Error: [MissingControllerException] Controller class HnslkdController could not be found.
+Exception Attributes: array (
+  'class' => 'HnslkdController',
+  'plugin' => NULL,
+)
+Request URL: /sms/hnslkd
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:25:08 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:25:08 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:25:08 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:34:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:34:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:34:37 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:37:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:37:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:37:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:37:42 Error: [MissingActionException] Action UsersController::lsd() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'lsd',
+)
+Request URL: /sms/users/lsd
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:37:43 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:37:43 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:37:43 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:01 Error: [MissingActionException] Action UsersController::lsd() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'lsd',
+)
+Request URL: /sms/users/lsd
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:01 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:01 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:01 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:02 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/js/apps.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:09 Error: [MissingActionException] Action UsersController::lsd() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'lsd',
+)
+Request URL: /sms/users/lsd
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:10 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/js/apps.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:10 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:10 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:10 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:21 Error: [MissingActionException] Action UsersController::lsd() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'lsd',
+)
+Request URL: /sms/users/lsd
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:21 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:21 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:21 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:42:21 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/js/apps.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::lsd() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'lsd',
+)
+Request URL: /sms/users/lsd
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/style-responsive.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/style.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/font-awesome-4.2.0/css/font-awesome.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/theme/default.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/slimscroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/js/apps.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:43:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/theme/red.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:44:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:44:16 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::dddwed() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dddwed',
+)
+Request URL: /sms/users/dddwed
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-ui-1.10.4/themes/base/minified/jquery-ui.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/bootstrap-3.2.0/css/bootstrap.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/animate.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/font-awesome-4.2.0/css/font-awesome.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/style.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/style-responsive.min.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/theme/default.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-1.8.2/jquery-1.8.2.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/bootstrap-3.2.0/js/bootstrap.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-ui-1.10.4/ui/minified/jquery-ui.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/slimscroll/jquery.slimscroll.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/plugins/jquery-cookie/jquery.cookie.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/js/apps.min.js
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:22 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/css/theme/red.css
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:40 Error: [MissingActionException] Action UsersController::dddwed() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dddwed',
+)
+Request URL: /sms/users/dddwed
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:40 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:40 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:44:40 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:46:24 Error: [MissingActionException] Action UsersController::dddwed() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dddwed',
+)
+Request URL: /sms/users/dddwed
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:46:24 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:46:24 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:46:24 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:47:02 Error: [MissingActionException] Action UsersController::dddwed() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dddwed',
+)
+Request URL: /sms/users/dddwed
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:48:19 Error: [MissingActionException] Action UsersController::dddwed() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'dddwed',
+)
+Request URL: /sms/users/dddwed
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:48:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:48:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:48:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:48:48 Error: [MissingActionException] Action UsersController::rgrthgt() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'rgrthgt',
+)
+Request URL: /sms/users/rgrthgt
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:51:38 Error: [MissingActionException] Action UsersController::rgrthgt() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'rgrthgt',
+)
+Request URL: /sms/users/rgrthgt
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:51:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:51:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:51:40 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:51:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:51:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:51:47 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:51:51 Error: [MissingActionException] Action UsersController::rgvrvgvg() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'rgvrvgvg',
+)
+Request URL: /sms/users/rgvrvgvg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:51:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-4.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:51:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-3.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:51:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /sms/img/login-bg/bg-5.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:52:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:52:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:52:04 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:52:08 Error: [MissingActionException] Action UsersController::gbhgbhgb() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'gbhgbhgb',
+)
+Request URL: /sms/users/gbhgbhgb
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:52:10 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:52:10 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:52:10 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:56:39 Error: [MissingControllerException] Controller class IjihiController could not be found.
+Exception Attributes: array (
+  'class' => 'IjihiController',
+  'plugin' => NULL,
+)
+Request URL: /sms/ijihi
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:56:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:56:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:56:39 Error: [MissingControllerException] Controller class AssetsController could not be found.
+Exception Attributes: array (
+  'class' => 'AssetsController',
+  'plugin' => NULL,
+)
+Request URL: /sms/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:57:10 Error: [MissingControllerException] Controller class IjihiController could not be found.
+Exception Attributes: array (
+  'class' => 'IjihiController',
+  'plugin' => NULL,
+)
+Request URL: /sms/ijihi
+Stack Trace:
+#0 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-10-23 13:57:12 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-2.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:57:12 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-13.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2014-10-23 13:57:12 Error: [MissingActionException] Action UsersController::assets() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'assets',
+)
+Request URL: /sms/users/assets/img/user-1.jpg
+Stack Trace:
+#0 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /var/www/html/sms/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /var/www/html/sms/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
